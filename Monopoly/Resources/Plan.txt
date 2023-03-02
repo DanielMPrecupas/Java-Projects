@@ -1,0 +1,50 @@
+Monopoly
+
+Objective
+
+    Become the wealthiest player in the chosen time
+
+Equipment:
+
+	Board:
+		Properties:
+		Community Chests/Chances:
+		Income Tax/Luxury Tax:
+		Railroads:
+		Companies:
+		Jail:
+
+	Dice:
+		Two random integers of value 1 - 6; if the numbers are equal, the player can throw the dice again.
+		If the player lands three doubles in a row, they go straight to jail.
+	
+	Houses:
+		Integer of value 32
+	
+	Hotels:
+		Integer of value 12
+
+	Players class:
+		Position on Board (int)
+		Money (int)
+		Properties (as an array of strings)
+		Railways (array of strings)
+		Jail Status (boolean)
+		
+
+Preparation:
+
+	Shuffle Chance and Community arrays
+	Give player $1500
+
+Play:
+	Each player throws the dice to decide the order of the turns.
+	Players start on Board[0], the following rounds reset the Board to 0.
+	Players can buy properties; rent is charged when other players land on those properties.
+	When a player owns every property of one color, they can place houses, which raises the rent for said property.
+	When a player owns four houses, they can build a hotel on the lot, returning the houses to the bank.
+	If a player is unable to pay off the rent to another player, they are given multiple options:
+		- selling a house to the bank for half the price;
+		- selling a house to another player for a specified price;
+		- if said player does not own anything, they are declared bankrupt, and outed from the game.
+	Everytime the player passes through the GO (Board[0]) square, they are given $200.

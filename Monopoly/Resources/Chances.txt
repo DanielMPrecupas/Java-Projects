@@ -1,0 +1,14 @@
+Advance to "Go". 1
+Advance to Illinois Avenue. 25
+Advance to St. Charles Place. 12
+Advance token to the nearest Utility.
+Advance to the nearest Railroad.
+Bank pays you dividend of $50.
+Get out of Jail Free.
+Go Back Three spaces.
+Go to Jail. Go directly to Jail. Do not pass GO, do not collect $200.
+Make general repairs on all your property: For each house pay $25, for each hotel $100.
+Take a trip to Reading Railroad. 6
+Take a walk on the Boardwalk. Advance token to Boardwalk. 40
+You have been elected Chairman of the Board. Pay each player $50.
+Your building loan matures. Receive $150.
